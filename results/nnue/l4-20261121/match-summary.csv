@@ -1,0 +1,11 @@
+candidate,hce_mask,wins,draws,losses,points_pct,ply_cap_draws
+large-704x128-int16-hce15,15,10,4,10,50.0,1
+large-704x128-int16-hce63,63,10,5,9,52.08,2
+large-704x128-int8-hce15,15,7,7,10,43.75,4
+large-704x128-int8-hce63,63,6,5,13,35.42,5
+large-768x256-int16-hce15,15,6,7,11,39.58,5
+large-768x256-int16-hce63,63,7,4,13,37.5,1
+large-768x256-int8-hce15,15,5,4,15,29.17,2
+large-768x256-int8-hce63,63,9,5,10,47.92,2
+medium-704x64-int8-hce15,15,6,0,18,25.0,0
+medium-704x64-int8-hce63,63,10,3,11,47.92,2

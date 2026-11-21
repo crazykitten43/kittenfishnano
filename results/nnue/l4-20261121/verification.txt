@@ -1,0 +1,6 @@
+screen: 7 architectures, 5 epochs each, best and latest checkpoints deserialize
+medium: 4 architectures, 5 epochs each, best and latest checkpoints deserialize
+large: 2 architectures, 5 epochs each, best and latest checkpoints deserialize
+Common validation SHA-256 57b1a9fbbc3c69c5d9918a42dc678740736a563114eb52afca02f2610fa044eb
+Corpus manifest SHA-256 6d0ccf6bec7c1e147a24e51a51848af35dad9aa01d6027c544f4a8d71e2846c1
+No packed training or validation shards in the results directory

@@ -1,0 +1,10 @@
+parity_cases,128
+transition_cases,3840
+model_bytes,181272
+state_bytes,1040
+metric,operations,seconds,operations_per_second,checksum
+refresh,474112,0.300374,1.5784e+06,0
+incremental_push_pop,4882432,0.300018,1.62738e+07,0
+incremental_and_output_push_pop,691200,0.300214,2.30236e+06,29235600
+output,730112,0.300368,2.43072e+06,17665288
+refresh_and_output,296960,0.300116,989485,7185040

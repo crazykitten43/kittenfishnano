@@ -1,0 +1,3 @@
+Projected 2 × 99,000,067 × 5: 0.24 training hours, US$0.27 VM compute at US$1.0962/hr.
+Large-stage limit per architecture: 99,000,067 (15% timing margin)
+99000067

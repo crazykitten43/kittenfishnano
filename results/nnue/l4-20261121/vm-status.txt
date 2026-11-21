@@ -1,0 +1,8 @@
+Final VM status: TERMINATED
+Elapsed wall seconds including startup and shutdown: 1267
+Independently verified via Compute Engine
+lastStartTimestamp: 2026-11-21T09:14:47.478Z
+lastStopTimestamp: 2026-11-21T09:35:41.319Z
+maxRunDuration: 10800 seconds
+instanceTerminationAction: STOP
+status: TERMINATED

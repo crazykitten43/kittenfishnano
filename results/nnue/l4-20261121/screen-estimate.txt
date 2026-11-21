@@ -1,0 +1,1 @@
+Projected 4 × 10,000,000 × 5: 0.05 training hours, US$0.05 VM compute at US$1.0962/hr.

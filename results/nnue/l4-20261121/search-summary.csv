@@ -1,0 +1,7 @@
+candidate,positions,aggregate_nodes_s,mean_depth,tactics_solved,tactics_total
+hce4,16,2790858,5.06,6,6
+hce5,16,2566786,5,6,6
+large-704x128-int16,16,1746041,4.69,6,6
+large-704x128-int8,16,1715747,4.69,6,6
+large-768x256-int16,16,1418409,4.62,6,6
+large-768x256-int8,16,1334276,4.62,6,6

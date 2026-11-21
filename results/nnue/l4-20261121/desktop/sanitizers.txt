@@ -1,0 +1,8 @@
+704x128 int8 parity_cases,128
+704x128 int8 transition_cases,3840
+704x128 int16 parity_cases,128
+704x128 int16 transition_cases,3840
+768x256 int8 parity_cases,128
+768x256 int8 transition_cases,3840
+768x256 int16 parity_cases,128
+768x256 int16 transition_cases,3840

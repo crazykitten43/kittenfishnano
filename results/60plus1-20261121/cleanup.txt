@@ -1,0 +1,1 @@
+2026-11-21T12:43:42Z Independently verified absent: VM kittenfishnano-60plus1-1121100532 and boot disk kittenfishnano-60plus1-1121100532 in us-central1-a

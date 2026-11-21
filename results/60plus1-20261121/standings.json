@@ -1,0 +1,305 @@
+{
+  "completed": 672,
+  "scheduled": 672,
+  "by_opening": {
+    "italian": 56,
+    "sicilian": 56,
+    "french": 56,
+    "caro-kann": 56,
+    "queens-gambit": 56,
+    "kings-indian": 56,
+    "nimzo-indian": 56,
+    "english": 56,
+    "scandinavian": 56,
+    "ruy-lopez": 56,
+    "slav": 56,
+    "accelerated-dragon": 56
+  },
+  "complete_opening_rounds": [
+    "italian",
+    "sicilian",
+    "french",
+    "caro-kann",
+    "queens-gambit",
+    "kings-indian",
+    "nimzo-indian",
+    "english",
+    "scandinavian",
+    "ruy-lopez",
+    "slav",
+    "accelerated-dragon"
+  ],
+  "complete_color_pairs": 336,
+  "terminations": {
+    "mate": 519,
+    "ply-cap": 79,
+    "repetition": 62,
+    "dead-material": 7,
+    "50-move": 4,
+    "stalemate": 1
+  },
+  "standings": {
+    "704x128 INT16": {
+      "wins": 71,
+      "draws": 39,
+      "losses": 58,
+      "points": 90.5,
+      "time_forfeits": 0,
+      "capped_draws": 22
+    },
+    "HCE-4": {
+      "wins": 70,
+      "draws": 37,
+      "losses": 61,
+      "points": 88.5,
+      "time_forfeits": 0,
+      "capped_draws": 16
+    },
+    "HCE-3": {
+      "wins": 66,
+      "draws": 41,
+      "losses": 61,
+      "points": 86.5,
+      "time_forfeits": 0,
+      "capped_draws": 21
+    },
+    "HCE-2": {
+      "wins": 71,
+      "draws": 30,
+      "losses": 67,
+      "points": 86.0,
+      "time_forfeits": 0,
+      "capped_draws": 12
+    },
+    "HCE-5": {
+      "wins": 66,
+      "draws": 40,
+      "losses": 62,
+      "points": 86.0,
+      "time_forfeits": 0,
+      "capped_draws": 16
+    },
+    "768x256 INT16": {
+      "wins": 63,
+      "draws": 41,
+      "losses": 64,
+      "points": 83.5,
+      "time_forfeits": 0,
+      "capped_draws": 27
+    },
+    "768x256 INT8": {
+      "wins": 60,
+      "draws": 36,
+      "losses": 72,
+      "points": 78.0,
+      "time_forfeits": 0,
+      "capped_draws": 23
+    },
+    "704x128 INT8": {
+      "wins": 52,
+      "draws": 42,
+      "losses": 74,
+      "points": 73.0,
+      "time_forfeits": 0,
+      "capped_draws": 21
+    }
+  },
+  "head_to_head": {
+    "HCE-2 vs HCE-3": {
+      "wins": 7,
+      "draws": 5,
+      "losses": 12,
+      "first_points": 9.5,
+      "second_points": 14.5
+    },
+    "HCE-2 vs HCE-4": {
+      "wins": 9,
+      "draws": 3,
+      "losses": 12,
+      "first_points": 10.5,
+      "second_points": 13.5
+    },
+    "HCE-2 vs HCE-5": {
+      "wins": 12,
+      "draws": 6,
+      "losses": 6,
+      "first_points": 15.0,
+      "second_points": 9.0
+    },
+    "HCE-2 vs 704x128 INT8": {
+      "wins": 9,
+      "draws": 8,
+      "losses": 7,
+      "first_points": 13.0,
+      "second_points": 11.0
+    },
+    "HCE-2 vs 704x128 INT16": {
+      "wins": 10,
+      "draws": 2,
+      "losses": 12,
+      "first_points": 11.0,
+      "second_points": 13.0
+    },
+    "HCE-2 vs 768x256 INT8": {
+      "wins": 14,
+      "draws": 3,
+      "losses": 7,
+      "first_points": 15.5,
+      "second_points": 8.5
+    },
+    "HCE-2 vs 768x256 INT16": {
+      "wins": 10,
+      "draws": 3,
+      "losses": 11,
+      "first_points": 11.5,
+      "second_points": 12.5
+    },
+    "HCE-3 vs HCE-4": {
+      "wins": 11,
+      "draws": 6,
+      "losses": 7,
+      "first_points": 14.0,
+      "second_points": 10.0
+    },
+    "HCE-3 vs HCE-5": {
+      "wins": 5,
+      "draws": 7,
+      "losses": 12,
+      "first_points": 8.5,
+      "second_points": 15.5
+    },
+    "HCE-3 vs 704x128 INT8": {
+      "wins": 10,
+      "draws": 5,
+      "losses": 9,
+      "first_points": 12.5,
+      "second_points": 11.5
+    },
+    "HCE-3 vs 704x128 INT16": {
+      "wins": 9,
+      "draws": 5,
+      "losses": 10,
+      "first_points": 11.5,
+      "second_points": 12.5
+    },
+    "HCE-3 vs 768x256 INT8": {
+      "wins": 9,
+      "draws": 6,
+      "losses": 9,
+      "first_points": 12.0,
+      "second_points": 12.0
+    },
+    "HCE-3 vs 768x256 INT16": {
+      "wins": 10,
+      "draws": 7,
+      "losses": 7,
+      "first_points": 13.5,
+      "second_points": 10.5
+    },
+    "HCE-4 vs HCE-5": {
+      "wins": 9,
+      "draws": 6,
+      "losses": 9,
+      "first_points": 12.0,
+      "second_points": 12.0
+    },
+    "HCE-4 vs 704x128 INT8": {
+      "wins": 12,
+      "draws": 6,
+      "losses": 6,
+      "first_points": 15.0,
+      "second_points": 9.0
+    },
+    "HCE-4 vs 704x128 INT16": {
+      "wins": 8,
+      "draws": 6,
+      "losses": 10,
+      "first_points": 11.0,
+      "second_points": 13.0
+    },
+    "HCE-4 vs 768x256 INT8": {
+      "wins": 12,
+      "draws": 5,
+      "losses": 7,
+      "first_points": 14.5,
+      "second_points": 9.5
+    },
+    "HCE-4 vs 768x256 INT16": {
+      "wins": 10,
+      "draws": 5,
+      "losses": 9,
+      "first_points": 12.5,
+      "second_points": 11.5
+    },
+    "HCE-5 vs 704x128 INT8": {
+      "wins": 12,
+      "draws": 6,
+      "losses": 6,
+      "first_points": 15.0,
+      "second_points": 9.0
+    },
+    "HCE-5 vs 704x128 INT16": {
+      "wins": 6,
+      "draws": 7,
+      "losses": 11,
+      "first_points": 9.5,
+      "second_points": 14.5
+    },
+    "HCE-5 vs 768x256 INT8": {
+      "wins": 12,
+      "draws": 4,
+      "losses": 8,
+      "first_points": 14.0,
+      "second_points": 10.0
+    },
+    "HCE-5 vs 768x256 INT16": {
+      "wins": 9,
+      "draws": 4,
+      "losses": 11,
+      "first_points": 11.0,
+      "second_points": 13.0
+    },
+    "704x128 INT8 vs 704x128 INT16": {
+      "wins": 5,
+      "draws": 6,
+      "losses": 13,
+      "first_points": 8.0,
+      "second_points": 16.0
+    },
+    "704x128 INT8 vs 768x256 INT8": {
+      "wins": 8,
+      "draws": 5,
+      "losses": 11,
+      "first_points": 10.5,
+      "second_points": 13.5
+    },
+    "704x128 INT8 vs 768x256 INT16": {
+      "wins": 11,
+      "draws": 6,
+      "losses": 7,
+      "first_points": 14.0,
+      "second_points": 10.0
+    },
+    "704x128 INT16 vs 768x256 INT8": {
+      "wins": 11,
+      "draws": 5,
+      "losses": 8,
+      "first_points": 13.5,
+      "second_points": 10.5
+    },
+    "704x128 INT16 vs 768x256 INT16": {
+      "wins": 4,
+      "draws": 8,
+      "losses": 12,
+      "first_points": 8.0,
+      "second_points": 16.0
+    },
+    "768x256 INT8 vs 768x256 INT16": {
+      "wins": 10,
+      "draws": 8,
+      "losses": 6,
+      "first_points": 14.0,
+      "second_points": 10.0
+    }
+  }
+}

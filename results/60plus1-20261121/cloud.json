@@ -1,0 +1,27 @@
+{
+  "instance": "kittenfishnano-60plus1-1121100532",
+  "created_at": "2026-11-21T10:05:35.375000+00:00",
+  "cleanup_verified_at": "2026-11-21T12:43:42+00:00",
+  "hours_to_verified_cleanup": 2.635173611111111,
+  "machine_type": "e2-highcpu-16",
+  "cpu_platform": "Intel Broadwell",
+  "zone": "us-central1-a",
+  "boot_disk": "kittenfishnano-60plus1-1121100532",
+  "boot_disk_auto_delete": true,
+  "boot_disk_type": "pd-standard",
+  "boot_disk_gb": 15,
+  "scheduling": {
+    "automaticRestart": true,
+    "instanceTerminationAction": "DELETE",
+    "maxRunDuration": {
+      "nanos": 0,
+      "seconds": "21000"
+    },
+    "onHostMaintenance": "MIGRATE",
+    "preemptible": false,
+    "provisioningModel": "STANDARD"
+  },
+  "compute_usd_per_hour": 0.39576192,
+  "conservative_compute_estimate_usd": 1.0429,
+  "price_source": "https://cloud.google.com/products/compute/pricing/general-purpose?hl=en"
+}

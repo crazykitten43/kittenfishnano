@@ -1,0 +1,3 @@
+game_id,first,second,opening,first_color,outcome,reason,played_plies,moves,white_us,black_us,elapsed_us
+1,3,7,italian,W,-1,time-forfeit,0,,0,1000,1458
+2,3,7,italian,B,1,time-forfeit,0,,0,1000,1463

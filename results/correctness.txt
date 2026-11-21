@@ -1,0 +1,27 @@
+c++ -O3 -Wall -Wextra -Wpedantic -std=c++14 -Iinclude src/board.cpp src/eval.cpp src/search.cpp tests/tests.cpp -o build/micro_tests
+./build/micro_tests
+perft 1 20
+perft 2 400
+perft 3 8902
+perft 4 197281
+perft 1 48
+perft 2 2039
+perft 3 97862
+perft 4 4085603
+perft 1 14
+perft 2 191
+perft 3 2812
+perft 4 43238
+perft 1 6
+perft 2 264
+perft 3 9467
+perft 4 422333
+perft 1 44
+perft 2 1486
+perft 3 62379
+perft 4 2103487
+perft 1 46
+perft 2 2079
+perft 3 89890
+perft 4 3894594
+All correctness tests passed

@@ -1,0 +1,15 @@
+Desktop serial mock. Reported sizes use the host ABI. No Arduino metrics.
+KittenFish Micro tt_bytes 262144 storage psram board_bytes 296 search_bytes 62704 pawn_cache_bytes 4096
+ok
+ok
+ok
+bestmove d7d5 score -23 depth 4 nodes 6528
+error move
+error fen
+KittenFish Micro tt_bytes 16384 storage internal board_bytes 296 search_bytes 62704 pawn_cache_bytes 4096
+ok
+ok
+ok
+bestmove d7d5 score -23 depth 4 nodes 7296
+error move
+error fen

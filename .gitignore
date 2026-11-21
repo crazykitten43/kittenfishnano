@@ -1,0 +1,11 @@
+/build/
+/cmake-build*/
+/.pio/
+__pycache__/
+.DS_Store
+
+# Local NNUE training data
+*.kfd
+*.jsonl.zst
+
+/results/nnue/*/dataset-manifest.json

@@ -1,0 +1,80 @@
+game,opening,white,black,verdict,player_with_win_or_missed_win,final_cp_white,final_mate_white,final_depth,final_wdl_white,clear_win_tail_plies,white_chance_ply,white_chance_cp,white_chance_mate,black_chance_ply,black_chance_cp,black_chance_mate,candidate_missed_move,halfmove_clock,final_fen
+8,italian,704x128 INT8,HCE-2,Winning at cap,704x128 INT8,,6,65,1000/0/0,154,235,,6,,,,,11,5K2/4B3/7P/8/3k4/4R3/8/8 w - - 11 121
+15,italian,HCE-3,HCE-4,Winning at cap,HCE-4,-375,,32,0/0/1000,15,15,270,,47,-555,,HCE-4 84...Rg4 (-441 to +1 White cp),82,R7/8/5K2/8/p1r2k2/8/8/8 w - - 82 121
+19,italian,HCE-3,704x128 INT8,Win slipped,704x128 INT8,0,,79,4/992/4,,,,,101,-938,,704x128 INT8 118...Re5+ (-377 to +0 White cp),95,8/1R6/8/5r2/8/4K3/2p5/3k4 w - - 95 121
+33,italian,HCE-4,768x256 INT8,Winning at cap,768x256 INT8,,-8,54,0/0/1000,150,,,,219,,-4,,60,8/5k2/8/8/3K4/1q6/8/8 w - - 60 121
+37,italian,HCE-5,704x128 INT8,Winning at cap,704x128 INT8,,-12,49,0/0/1000,177,54,276,,224,,-17,HCE-5 28.Qd4 (+276 to -309 White cp),95,8/1b4k1/1P6/8/2K4P/8/7r/8 w - - 95 121
+41,italian,HCE-5,768x256 INT8,Winning at cap,768x256 INT8,-467,,21,0/0/1000,183,,,,67,-1229,,768x256 INT8 16...Bb4+ (-383 to -63 White cp),70,2R5/8/8/8/8/r7/3K1p2/5k2 w - - 70 121
+48,italian,768x256 INT8,704x128 INT8,Win slipped,704x128 INT8,0,,28,4/992/4,,,,,157,-635,,704x128 INT8 79...Be2 (-635 to -22 White cp),79,8/8/b4K2/8/1R6/2r3k1/8/8 w - - 79 121
+57,sicilian,HCE-2,HCE-3,Win slipped,HCE-3,-3,,24,3/992/5,,,,,53,-589,,HCE-3 49...Rxa5 (-399 to -3 White cp),62,3RK3/7r/8/8/5n2/8/5k2/8 w - - 62 121
+75,sicilian,HCE-3,704x128 INT8,Winning at cap,704x128 INT8,-1084,,18,0/0/1000,140,,,,239,-950,,,62,8/8/6K1/4B3/p1p5/1k6/1P2r3/8 w - - 62 121
+81,sicilian,HCE-3,768x256 INT16,Win slipped,768x256 INT16,-66,,17,0/866/134,,,,,155,,-8,,85,5q2/8/5K2/8/1k3N2/8/8/8 w - - 85 121
+102,sicilian,704x128 INT16,704x128 INT8,Win slipped,704x128 INT16,0,,31,4/992/4,,32,664,,,,,704x128 INT16 23.Rhf1 (+444 to -124 White cp),85,8/8/8/8/3BK3/2N5/6k1/8 w - - 85 121
+103,sicilian,704x128 INT8,768x256 INT8,Win slipped,704x128 INT8,3,,15,5/992/3,,155,,6,,,,704x128 INT8 43.Rxh3 (+485 to +20 White cp),87,8/8/5k2/8/8/7Q/1K6/8 w - - 87 121
+107,sicilian,704x128 INT16,768x256 INT8,Win slipped,768x256 INT8,6,,27,5/992/3,,,,,42,-536,,768x256 INT8 22...Nac4 (-499 to -89 White cp),1,8/1p2p3/6PK/2P1k3/8/8/b4B2/8 w - - 1 121
+110,sicilian,768x256 INT16,704x128 INT16,Winning at cap,704x128 INT16,,-4,118,0/0/1000,203,,,,238,,-4,,2,8/8/8/5q2/1K3p2/6k1/7p/8 w - - 2 121
+116,french,HCE-4,HCE-2,Winning at cap,HCE-4,,5,90,1000/0/0,120,239,,5,,,,,31,8/k7/2Q2K2/8/8/8/8/8 w - - 31 121
+119,french,HCE-2,704x128 INT8,Winning at cap,HCE-2,,17,26,1000/0/0,52,227,8659,,,,,,49,7Q/8/4Q3/8/k4K2/8/5q2/8 w - - 49 121
+121,french,HCE-2,704x128 INT16,Win slipped,704x128 INT16,-8,,26,3/991/6,,,,,83,-595,,,30,5k2/8/5K2/2Nb4/8/8/8/8 w - - 30 121
+126,french,768x256 INT16,HCE-2,Win slipped,768x256 INT16,0,,49,4/992/4,,150,643,,,,,768x256 INT16 75.Kd3 (+642 to +4 White cp),14,8/5b2/8/2B5/8/5k2/4p3/4K3 w - - 14 121
+130,french,HCE-5,HCE-3,Winning at cap,HCE-5,,14,65,1000/0/0,114,224,,10,27,-412,,,69,8/8/8/7K/5R2/4k3/8/8 w - - 69 121
+135,french,HCE-3,768x256 INT8,Winning at cap,768x256 INT8,,-2,245,0/0/1000,179,,,,238,,-3,,26,4b3/8/6p1/4k1P1/7K/r7/8/8 w - - 26 121
+136,french,768x256 INT8,HCE-3,Winning at cap,768x256 INT8,406,,29,1000/0/0,74,106,696,,,,,768x256 INT8 68.Kb6 (+647 to +39 White cp),69,8/8/8/P1K5/8/2R5/5k2/r7 w - - 69 121
+138,french,768x256 INT16,HCE-3,Winning at cap,768x256 INT16,,5,79,1000/0/0,202,198,,4,,,,,1,8/8/7P/3k4/6K1/8/1Q6/8 w - - 1 121
+142,french,704x128 INT8,HCE-4,Win slipped,704x128 INT8,0,,69,4/992/4,,174,649,,,,,704x128 INT8 88.Rf8 (+649 to +44 White cp),73,3k4/R7/5p2/5Pb1/7p/4p2P/4K3/8 w - - 73 121
+146,french,768x256 INT8,HCE-4,Win slipped,768x256 INT8 / HCE-4,0,,44,4/992/4,,88,321,,91,-480,,768x256 INT8 45.b4 (+321 to -400 White cp),18,8/1K6/1PP5/8/4qbp1/2Q5/4k3/8 w - - 18 121
+147,french,HCE-4,768x256 INT16,Win slipped,HCE-4,0,,60,4/992/4,,68,677,,,,,HCE-4 42.Ke2 (+531 to +20 White cp),38,6Bk/7P/K6r/8/8/8/8/8 w - - 38 121
+148,french,768x256 INT16,HCE-4,Winning at cap,768x256 INT16,6286,,27,1000/0/0,142,115,,5,,,,,44,8/1R6/8/8/8/p7/Kpk5/8 w - - 44 121
+149,french,HCE-5,704x128 INT8,Win slipped,HCE-5 / 704x128 INT8,0,,60,4/992/4,,68,435,,94,-925,,704x128 INT8 48...Kxg5 (-917 to -42 White cp),75,3q4/P7/1KR5/8/5p2/5k2/8/8 w - - 75 121
+154,french,768x256 INT8,HCE-5,Winning at cap,768x256 INT8,,7,73,1000/0/0,198,228,,5,,,,,60,8/3k4/1K2R3/1P6/8/8/8/4N3 w - - 60 121
+187,caro-kann,HCE-3,704x128 INT8,Drawish throughout sampled positions,,0,,56,4/992/4,,,,,,,,,94,6k1/3R4/1r6/4K3/8/8/8/8 w - - 94 121
+207,caro-kann,HCE-5,704x128 INT16,Winning at cap,704x128 INT16,-483,,19,0/0/1000,72,37,621,,121,-586,,,36,8/8/8/4B3/2p3k1/P6p/1P2R3/3K1q2 w - - 36 121
+212,caro-kann,768x256 INT16,HCE-5,Winning at cap,768x256 INT16,,5,77,1000/0/0,164,232,,5,,,,,2,8/8/KP6/3k4/7Q/8/8/8 w - - 2 121
+224,caro-kann,768x256 INT16,768x256 INT8,Winning at cap,768x256 INT16,,5,57,1000/0/0,136,233,,5,,,,,7,8/7Q/3k4/6K1/8/4N3/5P2/8 w - - 7 121
+241,queens-gambit,HCE-3,HCE-5,Win slipped,HCE-5,-40,,23,0/966/34,,,,,63,-584,,,49,8/8/k7/4KP2/8/7R/6q1/8 w - - 49 121
+249,queens-gambit,HCE-3,768x256 INT16,Winning at cap,768x256 INT16,-415,,27,0/0/1000,203,,,,46,-559,,,84,8/r7/8/2K3p1/8/6k1/3R4/8 w - - 84 121
+250,queens-gambit,768x256 INT16,HCE-3,Win slipped,768x256 INT16,0,,26,4/992/4,,66,257,,,,,768x256 INT16 34.Bd7 (+257 to +77 White cp),81,8/8/2K5/8/2R2n2/5k2/8/3r4 w - - 81 121
+255,queens-gambit,HCE-4,704x128 INT16,Win slipped,704x128 INT16,0,,47,4/992/4,,,,,129,-455,,704x128 INT16 65...Re5 (-455 to -24 White cp),64,8/5r2/8/6R1/8/5K2/8/7k w - - 64 121
+258,queens-gambit,768x256 INT8,HCE-4,Winning at cap,768x256 INT8,,6,61,1000/0/0,176,233,,4,,,,,3,8/8/5K2/P2k1P2/8/8/8/5Q2 w - - 3 121
+265,queens-gambit,HCE-5,768x256 INT8,Winning at cap,768x256 INT8,,-8,59,0/0/1000,129,,,,224,,-5,,16,8/r7/8/5K2/5p2/5k2/8/8 w - - 16 121
+274,queens-gambit,768x256 INT16,704x128 INT8,Drawish throughout sampled positions,,-34,,30,1/974/25,,,,,,,,,14,8/2R5/7p/5pk1/1r6/5K2/8/8 w - - 14 121
+277,queens-gambit,704x128 INT16,768x256 INT16,Winning at cap,768x256 INT16,,-8,48,0/0/1000,175,,,,232,,-5,,83,3r4/8/4n3/8/8/5k2/2K5/8 w - - 83 121
+279,queens-gambit,768x256 INT8,768x256 INT16,Winning at cap,768x256 INT16,-429,,32,0/0/1000,90,,,,61,-856,,768x256 INT16 14...Nc6 (-417 to -36 White cp),80,8/8/7p/8/5k2/rB6/6K1/8 w - - 80 121
+280,queens-gambit,768x256 INT16,768x256 INT8,Win slipped,768x256 INT16,0,,52,4/992/4,,122,752,,,,,768x256 INT16 62.a7+ (+752 to -1 White cp),44,8/8/8/8/2k3B1/7p/8/7K w - - 44 121
+300,kings-indian,704x128 INT8,HCE-3,Win slipped,704x128 INT8 / HCE-3,0,,49,4/992/4,,220,449,,39,-287,,704x128 INT8 116.Rh7 (+418 to +0 White cp),58,8/8/8/K1R5/1p3r2/1P1k4/8/8 w - - 58 121
+301,kings-indian,HCE-3,704x128 INT16,Drawish throughout sampled positions,,0,,56,4/992/4,,,,,,,,,72,6k1/2R5/8/5K2/8/8/r7/8 w - - 72 121
+311,kings-indian,HCE-4,704x128 INT16,Win slipped,HCE-4 / 704x128 INT16,0,,48,4/992/4,,92,419,,103,-414,,HCE-4 47.Rd8 (+419 to +15 White cp),19,7R/8/2r3K1/8/8/8/8/1k6 w - - 19 121
+319,kings-indian,HCE-5,704x128 INT16,Win slipped,704x128 INT16,0,,55,4/992/4,,,,,163,-879,,,23,8/2p5/3pP1Q1/3P2p1/8/2k4K/8/5q2 w - - 23 121
+320,kings-indian,704x128 INT16,HCE-5,Winning at cap,704x128 INT16,6179,,15,1000/0/0,182,142,,13,,,,,1,8/2Q5/8/p4k2/P5p1/8/7K/8 w - - 1 121
+370,nimzo-indian,768x256 INT8,HCE-4,Winning at cap,768x256 INT8,,6,58,1000/0/0,176,233,,4,,,,,3,8/8/5K2/P2k1P2/8/8/8/5Q2 w - - 3 121
+380,nimzo-indian,768x256 INT16,HCE-5,Winning at cap,768x256 INT16,637,,31,1000/0/0,164,238,679,,,,,,77,8/2K5/2P5/4k3/2R5/8/8/3r4 w - - 77 121
+391,nimzo-indian,768x256 INT8,768x256 INT16,Win slipped,768x256 INT8 / 768x256 INT16,-34,,22,1/973/26,,51,670,,146,,-10,768x256 INT16 76...Qe6 (-9989 to -13 White cp),71,Q7/8/8/8/3q4/8/8/K3k2n w - - 71 121
+397,english,HCE-2,HCE-5,Win slipped,HCE-5,0,,46,4/992/4,,,,,137,-521,,HCE-5 70...Ke3 (-388 to -10 White cp),60,8/2P5/4bk2/8/5K2/8/8/8 w - - 60 121
+400,english,704x128 INT8,HCE-2,Winning at cap,704x128 INT8,534,,23,1000/0/0,120,121,485,,61,-524,,HCE-2 36...Rb2 (-473 to -66 White cp),70,5R1R/8/8/8/1r6/p7/Kp4k1/8 w - - 70 121
+403,english,HCE-2,768x256 INT8,Winning at cap,768x256 INT8,,-3,245,0/0/1000,165,,,,239,,-4,,2,8/8/8/8/3p4/6k1/3K4/1q6 w - - 2 121
+413,english,HCE-3,704x128 INT16,Winning at cap,704x128 INT16,,-9,40,0/0/1000,215,,,,42,,-6,,52,8/8/8/3r4/5r2/2K1k1p1/1R6/8 w - - 52 121
+414,english,704x128 INT16,HCE-3,Win slipped,704x128 INT16,-1,,27,4/992/4,,63,866,,,,,,71,8/8/2Br2pK/8/5P2/6k1/6N1/8 w - - 71 121
+416,english,768x256 INT8,HCE-3,Win slipped,768x256 INT8,0,,26,4/992/4,,120,433,,,,,768x256 INT8 63.Rf2 (+388 to +27 White cp),84,7K/2r5/8/8/8/5k2/1R6/8 w - - 84 121
+417,english,HCE-3,768x256 INT16,Winning at cap,768x256 INT16,,-6,63,0/0/1000,122,,,,239,,-6,,16,8/8/5k2/6p1/4K3/1q6/8/8 w - - 16 121
+420,english,HCE-5,HCE-4,Win slipped,HCE-4,0,,51,4/992/4,,,,,31,-570,,HCE-4 21...Nc2+ (-268 to -55 White cp),59,8/1k6/1pb2Bp1/1p1p1p1p/3P1P1P/PP1P4/3K4/8 w - - 59 121
+424,english,704x128 INT16,HCE-4,Drawish throughout sampled positions,,0,,42,4/992/4,,,,,,,,,25,8/8/8/8/4k3/R7/2r5/4K3 w - - 25 121
+436,english,768x256 INT16,HCE-5,Win slipped,HCE-5,9,,22,7/990/3,,,,,61,-300,,,20,3r4/6pk/7p/8/8/1R3PK1/2r1P3/1R6 w - - 20 121
+441,english,704x128 INT8,768x256 INT16,Winning at cap,768x256 INT16,,-12,44,0/0/1000,187,,,,214,,-11,,0,8/8/8/6k1/8/6pp/3r4/2R4K w - - 0 121
+445,english,704x128 INT16,768x256 INT16,Winning at cap,704x128 INT16,,9,56,1000/0/0,218,108,,8,,,,,19,6k1/2R5/5P2/4B2p/7P/b7/8/7K w - - 19 121
+448,english,768x256 INT16,768x256 INT8,Winning at cap,768x256 INT8,,-4,152,0/0/1000,143,,,,212,,-4,,32,4n3/2r5/1K6/5r2/8/8/8/5k2 w - - 32 121
+455,scandinavian,HCE-2,704x128 INT8,Win slipped,HCE-2,0,,41,4/992/4,,79,490,,,,,HCE-2 39.Rb1 (+481 to +85 White cp),65,8/4R3/6pk/2r4p/4K2P/6P1/8/8 w - - 65 121
+502,scandinavian,768x256 INT16,704x128 INT16,Winning at cap,704x128 INT16,,-16,27,0/0/1000,178,27,288,,235,,-8,704x128 INT16 24...Re7 (-404 to -51 White cp),6,8/8/8/2k5/p1pn4/P7/2K5/8 w - - 6 121
+504,scandinavian,768x256 INT16,768x256 INT8,Winning at cap,768x256 INT8,,-7,51,0/0/1000,221,,,,202,,-7,,30,8/8/4r1b1/1K6/5n2/8/8/5k2 w - - 30 121
+529,ruy-lopez,HCE-3,768x256 INT16,Winning at cap,HCE-3,9165,,22,1000/0/0,22,239,1972,,,,,HCE-3 101.Kg6 (+1251 to +80 White cp),0,8/2P5/3k4/3N4/8/6K1/5q2/8 w - - 0 121
+535,ruy-lopez,HCE-4,704x128 INT16,Win slipped,HCE-4,0,,53,4/992/4,,52,465,,,,,,30,6k1/6P1/3n2K1/8/8/8/8/8 w - - 30 121
+550,ruy-lopez,704x128 INT16,704x128 INT8,Win slipped,704x128 INT16 / 704x128 INT8,0,,45,4/992/4,,131,884,,61,-766,,704x128 INT16 94.Qh1+ (+707 to +18 White cp),16,6K1/6P1/8/6k1/8/3q4/1p5Q/8 w - - 16 121
+553,ruy-lopez,704x128 INT8,768x256 INT16,Winning at cap,768x256 INT16,,-5,77,0/0/1000,3,38,581,,239,,-7,768x256 INT16 114...Qd5+ (-9989 to +37 White cp),1,7Q/8/6q1/8/7Q/6K1/2k2P2/1q6 w - - 1 121
+560,ruy-lopez,768x256 INT16,768x256 INT8,Win slipped,768x256 INT8,0,,48,4/992/4,,,,,119,-449,,768x256 INT8 64...Rg3 (-422 to -28 White cp),81,8/8/8/8/3K4/8/4Rrk1/8 w - - 81 121
+567,slav,HCE-2,704x128 INT8,Winning at cap,704x128 INT8,,-7,46,0/0/1000,113,94,936,,218,-19973,,HCE-2 48.Qa5 (+936 to +0 White cp),23,8/p7/1P6/8/K5k1/8/2q2p1p/5R2 w - - 23 121
+570,slav,704x128 INT16,HCE-2,Winning at cap,704x128 INT16,2839,,24,1000/0/0,212,238,1462,,,,,,1,8/5P2/8/8/3r2K1/2k5/4Q3/8 w - - 1 121
+584,slav,768x256 INT8,HCE-3,Winning at cap,768x256 INT8,,8,40,1000/0/0,124,226,,7,,,,,37,4Q3/8/5K2/2k3P1/3n4/8/8/8 w - - 37 121
+587,slav,HCE-4,HCE-5,Winning at cap,HCE-5,,-14,69,0/0/1000,113,,,,193,,-9,,70,8/3K4/8/8/8/4r1k1/8/8 w - - 70 121
+606,slav,704x128 INT16,704x128 INT8,Winning at cap,704x128 INT8,,-6,71,0/0/1000,207,25,392,,194,,-6,,46,6k1/8/8/8/8/3b4/6r1/3K4 w - - 46 121
+612,slav,768x256 INT8,704x128 INT16,Winning at cap,768x256 INT8,811,,31,1000/0/0,60,239,691,,,,,,35,r5k1/2R4R/6p1/4n1P1/8/4K3/8/8 w - - 35 121
+648,accelerated-dragon,704x128 INT16,HCE-4,Winning at cap,704x128 INT16,4627,,22,1000/0/0,208,238,3038,,,,,,73,8/4B3/8/8/k2K4/7p/7P/8 w - - 73 121
+666,accelerated-dragon,768x256 INT16,704x128 INT8,Win slipped,704x128 INT8,0,,64,4/992/4,,,,,109,-650,,704x128 INT8 57...Rc1+ (-385 to -34 White cp),16,8/2R5/8/6pk/8/8/8/r6K w - - 16 121

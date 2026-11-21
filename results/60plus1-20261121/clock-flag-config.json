@@ -1,0 +1,36 @@
+{
+  "commit": "4cd68e6c10d3e2aeb518f140a78c414e15355212",
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "flags": "-O3 -DNDEBUG -DNANO_TOURNAMENT -std=c++14 -Iinclude",
+  "engine_sha256": "779db0eff89c664e1fc25ceba488ebb4eadb9c2dca2b96cd88d476ac6cdb6a03",
+  "openings_sha256": "613583cb6150e16fef3b931816160856109cfcbef4a8f9653cb2305896aa1991",
+  "weights": {
+    "results/nnue/l4-20261121/large/704x128/int16.hpp": "e31539f50216230beccd2041b3908d7f74148bdedd8d385d4f714f8569411f6c",
+    "results/nnue/l4-20261121/large/704x128/int8.hpp": "2b6e9a6507fbc8091d86e6618e4592c61539440e50771ad0f28cfd28d6f41103",
+    "results/nnue/l4-20261121/large/768x256/int16.hpp": "4e8a6ebe107233843c46e859ac881f540385d9cc9ba9978c1bdd1e2a7f2a247b",
+    "results/nnue/l4-20261121/large/768x256/int8.hpp": "ac0189f4cea7b28b9b91bd95ec1403821d1f0f806866aabf923029974d86a406"
+  },
+  "entrants": {
+    "3": "HCE-2",
+    "7": "HCE-3",
+    "15": "HCE-4",
+    "63": "HCE-5",
+    "64": "704x128 INT8",
+    "65": "704x128 INT16",
+    "66": "768x256 INT8",
+    "67": "768x256 INT16"
+  },
+  "tt_entries": 16384,
+  "pawn_entries": 512,
+  "search_depth_limit": 32,
+  "time_policy": "max(1, min(clock_us/24 + 3*increment_us/4, clock_us-50000)/1000) ms, integer division",
+  "clear_tables_each_move": true,
+  "initial_ms": 1,
+  "increment_ms": 0,
+  "cap": 240,
+  "cap_includes_opening": true,
+  "workers": 2,
+  "site": "kittenfishnano-60plus1-1121100532",
+  "platform": "Linux-6.8.0-1073-gcp-x86_64-with-glibc2.35",
+  "python_chess": "1.11.2"
+}

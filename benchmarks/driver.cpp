@@ -2,6 +2,21 @@
 #ifdef MICRO_NNUE_HEADER
 #include MICRO_NNUE_HEADER
 #endif
+#ifdef NANO_TOURNAMENT
+#include "nnue.hpp"
+namespace net0 {
+#include "../results/nnue/l4-20261121/large/704x128/int8.hpp"
+}
+namespace net1 {
+#include "../results/nnue/l4-20261121/large/704x128/int16.hpp"
+}
+namespace net2 {
+#include "../results/nnue/l4-20261121/large/768x256/int8.hpp"
+}
+namespace net3 {
+#include "../results/nnue/l4-20261121/large/768x256/int16.hpp"
+}
+#endif
 #include <algorithm>
 #include <chrono>
 #include <cstdlib>
@@ -37,6 +52,22 @@ Search& selectEngine(unsigned flags, const Board& board) {
 #else
     (void)board;
 #endif
+#ifdef NANO_TOURNAMENT
+    static net0::ExportedNnue n0(net0::exportedWeights);
+    static net1::ExportedNnue n1(net1::exportedWeights);
+    static net2::ExportedNnue n2(net2::exportedWeights);
+    static net3::ExportedNnue n3(net3::exportedWeights);
+    static Search s0(n0.evaluator(),table,ttEntries,now);
+    static Search s1(n1.evaluator(),table,ttEntries,now);
+    static Search s2(n2.evaluator(),table,ttEntries,now);
+    static Search s3(n3.evaluator(),table,ttEntries,now);
+    switch (flags) {
+        case 64: n0.refresh(board); return s0;
+        case 65: n1.refresh(board); return s1;
+        case 66: n2.refresh(board); return s2;
+        case 67: n3.refresh(board); return s3;
+    }
+#endif
     hce.flags=flags;
     return engine;
 }
@@ -70,6 +101,9 @@ unsigned mask(const char* value) {
     auto flags=std::stoul(value);
 #ifdef MICRO_NNUE_HEADER
     if (flags==64) return 64;
+#endif
+#ifdef NANO_TOURNAMENT
+    if (flags>=64 && flags<=67) return unsigned(flags);
 #endif
     if (flags>63) throw std::runtime_error("Feature mask must be in [0, 63]");
     return unsigned(flags);
@@ -139,7 +173,8 @@ bool legal(Board& b) {
     }
     return false;
 }
-void match(unsigned first,unsigned second,int millis,int pairs,int cap,const char* path) {
+void match(unsigned first,unsigned second,int millis,int pairs,int cap,const char* path,
+           int selectedColor=-1, int64_t initial=0, int64_t increment=0) {
     std::ifstream in(path);
     if (!in) throw std::runtime_error("Cannot open opening suite");
     std::string line;
@@ -159,6 +194,9 @@ void match(unsigned first,unsigned second,int millis,int pairs,int cap,const cha
             if (!m || !opening.make(m,u)) throw std::runtime_error("Bad opening "+id);
         }
         for (int color=0;color<2;++color) {
+            if (selectedColor!=-1 && color!=selectedColor) continue;
+            int64_t clocks[2]={initial,initial};
+            std::vector<int64_t> elapsed;
             Board b=opening;
             auto history=baseHistory;
             int outcome=0, plies=0;
@@ -176,22 +214,47 @@ void match(unsigned first,unsigned second,int millis,int pairs,int cap,const cha
                     reason="repetition";
                     break;
                 }
-                if (plies>=cap) break;
+                if (plies+(initial ? int(baseHistory.size()) : 0)>=cap) break;
+                const auto turnStart=now();
+                const auto side=b.side;
                 auto& selected=selectEngine(b.side==color ? first : second,b);
                 selected.clear();
                 std::fill_n(pawns,pawnEntries,PawnEntry{});
-                auto result=selected.run(b,{millis,32},history.data(),history.size());
+                int budget=millis;
+                if (initial) {
+                    constexpr int64_t reserve=50000;
+                    budget=int(std::max(int64_t(1),std::min(clocks[side]/24+increment*3/4,
+                                                       clocks[side]-reserve)/1000));
+                }
+                auto result=selected.run(b,{budget,32},history.data(),history.size());
                 if (!result.move) throw std::runtime_error("No legal move from search");
                 Undo u;
                 history.push_back(b.key);
                 if (!b.make(result.move,u)) throw std::runtime_error("Illegal move from search");
+                if (initial) {
+                    elapsed.push_back(int64_t(now()-turnStart));
+                    clocks[side]-=elapsed.back();
+                    if (clocks[side]<=0) {
+                        clocks[side]=0;
+                        outcome=side==color ? -1 : 1;
+                        reason="time-forfeit";
+                        break;
+                    }
+                    clocks[side]+=increment;
+                }
                 char text[6];
                 notation(result.move,text);
                 if (!moves.empty()) moves+=' ';
                 moves+=text;
             }
             std::cout<<first<<','<<second<<','<<id<<','<<(color==White ? 'W' : 'B')
-                     <<','<<outcome<<','<<reason<<','<<plies<<','<<moves<<std::endl;
+                     <<','<<outcome<<','<<reason<<','<<plies<<','<<moves;
+            if (initial) {
+                std::cout<<','<<clocks[White]<<','<<clocks[Black]<<',';
+                for (size_t i=0;i<elapsed.size();++i)
+                    std::cout<<(i ? " " : "")<<elapsed[i];
+            }
+            std::cout<<std::endl;
         }
     }
 }
@@ -203,6 +266,12 @@ int main(int argc,char** argv) try {
     } else if (argc==8 && std::string(argv[1])=="match") {
         match(mask(argv[2]),mask(argv[3]),std::stoi(argv[4]),std::stoi(argv[5]),
               std::stoi(argv[6]),argv[7]);
+    } else if (argc==9 && std::string(argv[1])=="clock-match") {
+        auto initial=std::stoll(argv[4]), increment=std::stoll(argv[5]);
+        int cap=std::stoi(argv[6]), color=std::stoi(argv[7]);
+        if (initial<=0 || increment<0 || cap<=0 || (color!=0 && color!=1))
+            throw std::runtime_error("Invalid clock-match settings");
+        match(mask(argv[2]),mask(argv[3]),0,1,cap,argv[8],color,initial*1000,increment*1000);
     } else if (argc==5 && std::string(argv[1])=="think") {
         Board b;
         if (!b.load(argv[4])) throw std::runtime_error("Invalid FEN");
@@ -214,6 +283,7 @@ int main(int argc,char** argv) try {
     } else {
         std::cerr<<"Usage: kittenfishmicro bench MASK MS SUITE\n"
                  <<"       kittenfishmicro match MASK MASK MS PAIRS PLY_CAP OPENINGS\n"
+                 <<"       kittenfishmicro clock-match MASK MASK INITIAL_MS INCREMENT_MS PLY_CAP FIRST_COLOR OPENING\n"
                  <<"       kittenfishmicro think MASK MS 'FEN'\n";
         return 2;
     }
